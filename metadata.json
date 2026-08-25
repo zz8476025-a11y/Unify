@@ -1,0 +1,6 @@
+{
+  "name": "Marth Builds 3DGame",
+  "description": "A modern, high-tech, and futuristic website for an AI-powered 3D game generator.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
