@@ -23,6 +23,7 @@ import {
   Search,
   Zap
 } from 'lucide-react';
+import { Analytics } from '@vercel/analytics/react';
 import { GameGenre, GraphicsQuality } from './types';
 import GamePreview from './components/GamePreview';
 import { GALLERY_ITEMS, GalleryItem } from './data/gallery';
@@ -870,6 +871,7 @@ export default function App() {
         </p>
       </footer>
 
+      <Analytics />
     </div>
   );
 }
